@@ -7,7 +7,7 @@ package zoo;
  * @author Thomas LINTANF
  *
  */
-public class Animal {
+abstract class Animal {
 	private int poids;
 	private String nom;
 	
@@ -21,6 +21,8 @@ public class Animal {
 		this.nom = nom;
 	}
 
+	abstract void manger();
+	
 	/**
 	 * @return le poids
 	 */

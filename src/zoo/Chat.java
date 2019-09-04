@@ -57,4 +57,9 @@ public class Chat extends Animal{
 	public String toString() {
 		return "Chat "  + this.getNom() + " de race=" + race + " et de poids " + this.getPoids();
 	}
+
+	@Override
+	void manger() {
+		System.out.println("Le chat mange du Ronron");
+	}
 }

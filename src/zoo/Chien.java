@@ -60,4 +60,9 @@ public class Chien extends Animal{
 		return "Chien " + getNom() + " qui à pour maitre " + maitre + " et pèse" + getPoids();
 	}
 
+	@Override
+	void manger() {
+		System.out.println("Le chien mange du Pal");
+	}
+
 }
