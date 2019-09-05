@@ -4,18 +4,20 @@
 package zoo;
 
 /**
- * @author Thomas LINTANF
+ * @author Thomas LINTANF, Gabriel RIBIER
  *
  */
 abstract class Animal {
 	private int poids;
 	private String nom;
 	
+	//Constructeur sans arguments
 	public Animal() {
 		poids = 0;
 		nom = "";
 	}
 	
+	//Constructeur avec 2 arguments
 	public Animal(int poids, String nom) {
 		this.poids = poids;
 		this.nom = nom;

@@ -2,13 +2,14 @@ package zoo;
 
 /**
  * 
- * @author Thomas LINTANF
+ * @author Thomas LINTANF, Gabriel RIBIER
  *
  */
 
 public class Chat extends Animal{
 	private String race;
 	
+	//Constructeur avec 3 arguments
 	public Chat(int poids, String nom, String race) {
 		super(poids,nom);
 		this.race = race;

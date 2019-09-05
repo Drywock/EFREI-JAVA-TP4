@@ -4,13 +4,14 @@
 package zoo;
 
 /**
- * @author Thomas LINTANF
+ * @author Thomas LINTANF, Gabriel RIBIER
  *
  */
 public class Chien extends Animal{
 	
 	private String maitre;
 	
+	//Constructeur avec 3 arguments
 	public Chien(int poids, String nom, String maitre) {
 		super(poids,nom);
 		this.maitre = maitre;
