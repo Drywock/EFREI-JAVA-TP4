@@ -21,7 +21,10 @@ public class Utilisation {
 		}
 		labrador.manger();
 		garfield.manger();
-
+		Zoo parc = new Zoo();
+		parc.add(garfield);
+		parc.add(labrador);
+		System.out.println(parc);
 	}
 
 }

@@ -57,7 +57,7 @@ public class Chien extends Animal{
 
 	@Override
 	public String toString() {
-		return "Chien " + getNom() + " qui à pour maitre " + maitre + " et pèse" + getPoids();
+		return "Chien " + getNom() + " qui ï¿½ pour maitre " + maitre + " et pï¿½se " + getPoids();
 	}
 
 	@Override
